@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+    font-family: roboto, sans-serif;
+}
+#logo{
+    margin: 20px 20px;
+}
+.title{
+    margin: 5px 10px;
+}
+.become-seller{
+    border-radius: 10px;
+    background: white;
+    padding: 30px;
+}
+.heading{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.des{
+    margin: 20px 0;
+    text-transform: capitalize;
+    line-height: 35px;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: #383838;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    cursor:pointer;
+}
+.hide{
+    display: none;
+    pointer-events: none;
+}
+.apply-form input, textarea{
+    font-weight: 500;
+}
+.apply-form input:not(input[type="checkbox"]), #apply-form-btn{
+    width: 100%;
+}
+.apply-form textarea{
+    width: 100%;
+    height: 90px;
+    resize: none;
+    padding: 20px 30px;
+    margin: 5px 0;
+   font-family: roboto, sans-serif;
+}
+.product-listing{
+   width: 100%;
+   position: absolute;
+   top:10%;
+   padding:10px 20px;
+}
+.add-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-bottom: 50px;
+}
+.add-product-title{
+    text-transform: capitalize;
+    color: #383838;
+}
+.no-product-image{
+    display: block;
+    margin: auto;
+}

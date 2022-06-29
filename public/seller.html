@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seller Dashboard</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="seller.css">
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <img src="img/loading.gif" class="loader">
+
+         <div class="alert-box">
+            <img src="img/error.png" class="alert-img">
+            <p class="alert-msg">Error Message</p>
+         </div>
+
+         <img src="img/dark-logo.png" class="logo" id="logo"/>
+         <h2 class="title"> Sign up to be a seller</h2>
+
+         <!--become seller element-->
+         <div class="become-seller">
+            <p class="heading">Becoming a Seller</p>
+            <p class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Tempora provident nihil at molestiae commodi corrupti 
+                placeat suscipit deleniti nemo atque iusto officia,
+                 cumque consectetur mollitia. Tempora sed hic suscipit modi.
+            </p>
+            <button class="btn" id="apply-btn">apply for seller account</button>
+         </div>
+
+         <div class="apply-form hide">
+            <input type="text" id="business-name" placeholder="business name/ company name"/>
+            <textarea id="business-add" placeholder="address"></textarea>
+            <textarea id="about" placeholder="about"></textarea>
+            <input type="number" id="number" placeholder="phone"/>
+            <input type="checkbox" class="checkbox" id="realinfo"/>
+            <label for="realinfo">All Information is Real</label>
+            <button class="submit-btn" id="apply-form-btn">apply</button> 
+         </div>
+
+         <div class="product-listing">
+            <div class="add-product">
+                <p class="add-product-title">Add product</p>
+                <button class="btn">Add Product</button>
+            </div>
+            <img src="img/no-products.png" class="no-product-image"/>
+         </div>
+        <script src="seller.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
